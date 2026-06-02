@@ -116,7 +116,7 @@ prepare_ubuntu_storage() {
 }
 
 start_windows() {
-    echo "🪟 模式: Windows 11"
+    echo "🪟 模式: Windows 10"
 
     mkdir -p "$WINDOWS_PATH"
 
@@ -376,10 +376,10 @@ stop_target() {
 show_usage() {
     echo "用法:"
     echo "  bash start.sh"
-    echo "  bash start.sh win11"
+    echo "  bash start.sh win10"
     echo "  bash start.sh ubuntu"
     echo "  bash start.sh stop"
-    echo "  bash start.sh stop win11"
+    echo "  bash start.sh stop win10"
     echo "  bash start.sh stop ubuntu"
     echo ""
     echo "配置目录:"
@@ -391,9 +391,9 @@ show_usage() {
     echo "  Ubuntu 数据目录: 大容量盘/ubuntu/ubuntu-data"
     echo ""
     echo "环境变量:"
-    echo "  WINDOWS_USERNAME=MASTER"
-    echo "  WINDOWS_PASSWORD=admin@123"
-    echo "  WINDOWS_VERSION=11"
+    echo "  WINDOWS_USERNAME=Boss"
+    echo "  WINDOWS_PASSWORD=Kz112233"
+    echo "  WINDOWS_VERSION=10"
     echo "  WINDOWS_RAM_SIZE=4G"
     echo "  WINDOWS_CPU_CORES=4"
     echo "  WINDOWS_DISK_SIZE=64G"
